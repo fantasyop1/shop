@@ -1,0 +1,38 @@
+/* all style */
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul{list-style: none;}
+body{background-color: #F6F6F6;}
+i{font-style: normal;}
+/* header */
+header{background-color: #E3E4E5;height: 50px;color: #999999;}
+header a{color: #999999;font-size: 18px;font-weight: bold;}
+header ul{display:grid;grid-template-columns: 10% 90%;padding: 10px 250px;}
+header ul li:nth-child(1){font-size: 20px;font-weight: bold;}
+header ul li:nth-child(2){text-align: right;word-spacing: 10px;}
+a:hover{color: red;}
+header i{color: red;}
+/* search */
+.search{text-align: center;}
+.search ul li:nth-child(1) input{color: #999999;padding: 10px;font-size: 18px;width: 400px;border-radius: 10px 0 0 10px;margin-top: 20px;background-color: #F6F6F6;}
+.search ul li:nth-child(1) i{color:white;background-color: #D9534F;padding:14px 40px;border-radius: 5px;}
+.search ul li:nth-child(1) i:hover{color: #999999;}
+.search ul li:nth-child(2){color: #999999;padding-top: 5px;}
+/* nav */
+nav{margin-top: 10px;padding: 10px 0;font-size: 18px;color: #C81623;word-spacing: 20px;border-bottom: 2px solid #B1191A;}
+nav p{width: 1040px;margin: auto;}
+nav p span{color: white;background-color:#B1191A ;padding: 10px;}
+/* footer */
+footer{background-color:#EAEAEA ;margin-top: 20px;}
+footer ul:nth-child(1){display: grid;grid-template-columns: 25% 25% 25% 25%;padding: 20px 210px;}
+footer ul:nth-child(1) li span{position: relative;top: 6px;}
+footer ul:nth-child(1) li{background-image:url(../../home/images/ico_service.png); background-repeat: no-repeat;height: 40px;text-indent: 40px;font-size: 20px;font-weight: bold;}
+footer ul:nth-child(1) li:nth-child(1){background-position: 0px 0}
+footer ul:nth-child(1) li:nth-child(2){background-position: 0px -43px}
+footer ul:nth-child(1) li:nth-child(3){background-position: 0px -86px}
+footer ul:nth-child(1) li:nth-child(4){background-position: 0px -129px}
+footer ul:nth-child(2) p{display: block;}
+footer div{border-top: #cccccc 1px solid;border-bottom: #cccccc 1px solid;line-height: 2em;padding-left: 130px;}
+footer p{color: #767676;}
+footer div span{color: #666666;font-weight: bold;font-size: 20px;}
+.f{text-align: center;padding: 10px;}
